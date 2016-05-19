@@ -1,5 +1,5 @@
 //
-//  test.swift
+//  test2.swift
 //  Test
 //
 //  Created by Fan Yd on 16/5/19.
@@ -7,8 +7,3 @@
 //
 
 import Foundation
-
-class a {
-    /// ssss
-    
-}

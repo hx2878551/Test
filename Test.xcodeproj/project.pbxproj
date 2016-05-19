@@ -14,6 +14,8 @@
 		A68ED6091CEDAF3800CF6552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68ED6071CEDAF3800CF6552 /* LaunchScreen.storyboard */; };
 		A68ED6141CEDAF3800CF6552 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68ED6131CEDAF3800CF6552 /* TestTests.swift */; };
 		A68ED61F1CEDAF3800CF6552 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68ED61E1CEDAF3800CF6552 /* TestUITests.swift */; };
+		A68ED62D1CEDB39600CF6552 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68ED62C1CEDB39600CF6552 /* test.swift */; };
+		A68ED62F1CEDB3FF00CF6552 /* test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68ED62E1CEDB3FF00CF6552 /* test2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A68ED61A1CEDAF3800CF6552 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68ED61E1CEDAF3800CF6552 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		A68ED6201CEDAF3800CF6552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A68ED62C1CEDB39600CF6552 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		A68ED62E1CEDB3FF00CF6552 /* test2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				A68ED5FE1CEDAF3800CF6552 /* AppDelegate.swift */,
 				A68ED6001CEDAF3800CF6552 /* ViewController.swift */,
+				A68ED62C1CEDB39600CF6552 /* test.swift */,
+				A68ED62E1CEDB3FF00CF6552 /* test2.swift */,
 				A68ED6021CEDAF3800CF6552 /* Main.storyboard */,
 				A68ED6051CEDAF3800CF6552 /* Assets.xcassets */,
 				A68ED6071CEDAF3800CF6552 /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68ED62F1CEDB3FF00CF6552 /* test2.swift in Sources */,
 				A68ED6011CEDAF3800CF6552 /* ViewController.swift in Sources */,
+				A68ED62D1CEDB39600CF6552 /* test.swift in Sources */,
 				A68ED5FF1CEDAF3800CF6552 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
